@@ -60,11 +60,15 @@ button:active {
 }
 
 .rock {
-    background: #b1b1b1;
+    background:none;
+}
+
+.paper {
+    background: none;
 }
 
 .sciossors {
-    background: #e669f4;
+    background: none;
 }
 
 p{
