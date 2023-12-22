@@ -59,16 +59,8 @@ button:active {
     transition: none;
 }
 
-.rock {
+.rock, .paper, .sciossors {
     background:none;
-}
-
-.paper {
-    background: none;
-}
-
-.sciossors {
-    background: none;
 }
 
 p{
