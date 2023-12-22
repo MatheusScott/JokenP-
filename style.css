@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(./assets/image-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: transparent;
+    backdrop-filter:blur(5px);
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #fff;
+}
+h1 {
+    color: #000;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    font-size: 100px;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+button:active {
+    opacity: 0.6;
+    transition: none;
+}
+
+.rock {
+    background: #b1b1b1;
+}
+
+.sciossors {
+    background: #e669f4;
+}
+
+p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.my-score span {
+    color: #146862;
+}
+
+.npc-score span {
+    color: #0b110f;
+}
